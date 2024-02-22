@@ -53,7 +53,7 @@ body {
 
 .topbar {
     background-color: #232023;
-    overflow: scroll;
+    overflow: hidden;
     height: max-content;
 }	
 
