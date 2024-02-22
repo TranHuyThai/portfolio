@@ -1,0 +1,238 @@
+
+@font-face {
+    font-family: EspR;
+    src: url(EspialRegular.otf)
+}
+
+
+h1 {
+    font-size: 50px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    font-size: 27px;
+    font-family: EspR;
+    color: aliceblue;
+
+}
+
+h3 {
+    font-size: 10px;
+    font-family: EspR;
+    font-weight: lighter;
+    font-style: normal;
+    color: #696880;
+}
+
+h4 {
+    font-size: 12px;
+    font-family: EspR;
+    font-style: normal;
+    color: #232023;
+}
+
+h5 {
+    font-size: 10px;
+    font-family: EspR;
+    font-style:normal;
+    color: #9897A9;
+}
+
+h6{
+    font-size: 8px;
+    font-family: EspR;
+    color: #9897A9;
+}
+
+
+body {
+    margin: auto;
+    width: auto;
+}
+
+.topbar {
+    background-color: #232023;
+    overflow: scroll;
+    height: max-content;
+}	
+
+.topbar a {
+    float: right;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    padding: 14px 16px;
+    font-family: EspR;
+    font-weight: lighter;
+    letter-spacing: -1px;
+}
+
+.topbar a:hover {
+    background-color: whitesmoke;
+    color: #232023;
+}
+
+.name {
+    float: left;
+    color: white;
+    font-size: 20px;
+    padding: 14px 16px;
+    font-family:EspR;
+    letter-spacing: -1px;
+    font-weight: normal;
+    padding-left: 50px;
+
+}
+
+.design-img-container {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.design-img-container .design-img-text {
+    position: absolute;
+    color: white;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+}
+
+
+#design-img {
+    width: 100%;
+    height: 500px;
+    filter: brightness(0.60);
+    /*background-image: url(static/IMG_8451.JPG);*/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+title {
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.about {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    vertical-align: top;
+}
+
+.columns:after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+.break {
+    height: 50px;
+}
+
+.intro {
+    margin: auto;
+    width: 800px;
+    align-self: center;
+}
+
+#personal-img {
+    width: 87%;
+    height: 250px;
+    background-image: url(static/IMG_2000.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    align-self: right;
+}
+
+#personal-img-text {
+    width: 80%;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+
+.contacts {
+    width: 100%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color:#232023;
+}
+
+#resume-text {
+    width: 80%;
+    float: left;
+}
+
+#resume-text h3 {
+    line-height: 1.5;
+}
+
+hr {
+    width: 65%;
+    align-self: center;
+    color: #9897A9;
+}
+
+#contact-form {
+    padding-top: 7%;
+}
+
+input[type=text], textarea {
+    width:80%;
+    /*padding: 6px 5px;*/
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+#msg {
+    width:80%;
+    height: 110px;
+}
+
+#contact-text {
+    padding-top: 3%;
+    padding-left: 3%;
+    padding-right: 2%;
+}
+#contact-text a {
+    text-decoration: none;
+}
+
+#socials {
+    font-size: 20px;
+}
+
+.gallery {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    
+}
+
+.gallery img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px 10px;
+    vertical-align: middle;
+    display: inline-block;
+    border-radius: 10px;
+}
+#col1 {
+    padding-right: 5px;
+}
+
+#col3 {
+    padding-left: 5px;
+}
