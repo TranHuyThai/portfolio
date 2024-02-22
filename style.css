@@ -49,6 +49,7 @@ h6{
 body {
     margin: auto;
     width: auto;
+    overflow: hidden;
 }
 
 .topbar {
